@@ -1,0 +1,445 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navagation bar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header .logo {
+  color: rgb(0, 0, 0);
+  line-height: 50px;
+  font-size: 24px;
+  float: left;
+  font-weight: 700px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 200px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 200px;
+}
+
+header nav {
+  float: right;
+  height: 70px;
+  margin-top: 20px;
+  transition: .3s;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a:hover {
+  color: rgba(0, 0, 0, 0.721);
+  border-top: 1px solid rgb(4, 4, 4);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.landing-picture {
+  width: 100%;
+  height: 800px;
+  background: url("../images/man-cellphone-computer.jpg");
+  background-size: cover;
+  font-weight: 700;
+  color: white;
+}
+
+.landing-picture h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.landing-picture h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.landing-picture h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.relief-button {
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  margin-top: 220px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+}
+
+.relief-button a {
+  color: white;
+}
+
+.down-arrow {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  font-size: 40px;
+}
+
+.down-arrow a {
+  color: rgb(255, 255, 255);
+}
+
+.three-steps-container {
+  width: 100%;
+  height: auto;
+}
+
+.your-life-container {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.your-life-container h1 {
+  padding-top: 60px;
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgb(255, 34, 34);
+}
+
+.your-life-container .first-paragraph {
+  padding-top: 50px;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 25px;
+}
+
+.your-life-container .second-paragraph {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 25px;
+}
+
+.three-steps-container {
+  width: 100%;
+  height: 800px;
+  background: url("../images/hand-shake.jpg");
+  background-size: cover;
+  font-weight: 700;
+  color: white;
+}
+
+.three-steps-container h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.three-steps-container h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+
+
+/* form styles */
+
+.contact-form-2 {
+  width: 100%;
+  height: auto;
+  background: rgb(43, 43, 43);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.contact-header {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header-1 {
+  font-size: 20px;
+  color: rgb(255, 51, 51);
+  text-align: center;
+  margin-right: 5px;
+}
+
+.header-2 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.contact-header h1:last-child {
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+
+/* divisor */
+
+.style-divisor {
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.border-one {
+  width: 230px;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.center-triangle {
+  height: 0px;
+  width: 0px;
+  border: 10px solid;
+
+  border-bottom-color: rgb(255, 51, 51);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  margin: auto;
+
+}
+
+.border-two {
+  width: 230px;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/* form */
+
+.info-form-container {
+  padding: 100px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-info {
+  height: auto;
+  margin-left: 500px;
+  margin: auto;
+}
+
+.contact-form {
+  height: auto;
+  margin: auto;
+}
+
+.phone-container {
+  display: flex;
+  padding-left: 80px;
+}
+
+.phone-number {
+  height: 40px;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 5px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.phone-icon {
+  height: 40px;
+  color: rgb(255, 51, 51);
+  font-size: 30px;
+  text-align: right;
+  border-left: rgb(103, 103, 103) 1px solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.address-container {
+  padding-top: 40px;
+  display: flex;
+}
+
+.address-info {
+  height: 40px;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 5px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: right;
+  margin-left: 30px;
+}
+
+.address-icon {
+  height: 40px;
+  color: rgb(255, 51, 51);
+  font-size: 30px;
+  text-align: right;
+  border-left: rgb(103, 103, 103) 1px solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.email-container {
+  padding-top: 40px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.email-info {
+  height: 40px;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 13px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.email-icon {
+  height: 40px;
+  color: rgb(255, 51, 51);
+  font-size: 30px;
+  text-align: right;
+  border-left: rgb(103, 103, 103) 1px solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+
+.name-form {
+  width: 150px;
+  border: none;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.email-form {
+  width: 150px;
+  border: none;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.phone-form {
+  width: 150px;
+  border: none;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.subject-form {
+  width: 460px;
+  border: none;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  padding-left: 5px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.message {
+  width: 460px;
+  height: 70px;
+  border: none;
+  border-bottom: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.send {
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 360px;
+  border: rgb(103, 103, 103) 1px solid;
+  background: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+}
+
+input {
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  padding: 50px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 100;
+}
+
+footer span {
+  margin: 5px;
+}
