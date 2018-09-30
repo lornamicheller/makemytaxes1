@@ -16,7 +16,6 @@ a {
 
 /* navagation bar */
 header {
-  position: fixed;
   top: 0;
   left: 0;
   padding: 0 100px;
@@ -36,15 +35,15 @@ header .logo {
 
 .logo {
   width: 200px;
+  height: 100px;
   background: url("../images/logo.png") no-repeat;
   background-size: 200px;
 }
 
 header nav {
   float: right;
-  height: 70px;
+  height: 5px;
   margin-top: 20px;
-  transition: .3s;
 }
 
 header nav ul {
@@ -58,9 +57,9 @@ header nav ul li {
 }
 
 header nav ul li a {
-  height: 50px;
+  height: 30px;
   line-height: 50px;
-  padding: 0 15px;
+  padding: 0 20px;
   color: rgb(0, 0, 0);
   font-weight: 300;
   text-decoration: none;
@@ -255,7 +254,6 @@ header nav ul li a:hover {
   border-left-color: transparent;
   border-right-color: transparent;
   margin: auto;
-
 }
 
 .border-two {
@@ -263,6 +261,165 @@ header nav ul li a:hover {
   border-bottom: rgb(103, 103, 103) 1px solid;
   margin: auto;
   padding-top: 10px;
+}
+
+.skewed-box-1 {
+  background: rgb(26, 26, 26);
+  padding: 200px 0;
+  transform: skew(0deg, -10deg) translateY(-170px);
+}
+
+.container {
+  padding: 120px 200px;
+  transform: skew(0deg, 10deg);
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.step-1 {
+  position: absolute;
+  top: 150px;
+  left: 270px;
+  width: 200px;
+  height: auto;
+  text-align: left;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.step-1 .fas {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.step-1 h1 {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.step-1 p {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.step-2 {
+  position: absolute;
+  top: -10px;
+  left: 620px;
+  width: 200px;
+  height: auto;
+  text-align: left;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.step-2 .far {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.step-2 h1 {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.step-2 p {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.step-3 {
+  position: absolute;
+  top: -150px;
+  left: 1000px;
+  width: 200px;
+  height: auto;
+  text-align: left;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.step-3 .far {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.step-3 h1 {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.step-3 p {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.skewed-box-2 .container {
+  padding-top: 10px;
+  transform: skew(0deg, 0deg);
+  display: block;
+}
+
+.skewed-box-2 h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: rgb(255, 51, 51);
+}
+
+.ratings {
+  color: rgb(255, 255, 88);
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ratings h1 {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+}
+
+.skewed-box-2 .relief-button {
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
 
 /* form */
