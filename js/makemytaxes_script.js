@@ -1,3 +1,7 @@
 /* global $ */
 
-console.log('fk');
+$(document).ready(function () {
+  $('.menu-toggle').click(function () {
+    $('nav').toggleClass('active');
+  })
+})
